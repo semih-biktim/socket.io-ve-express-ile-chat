@@ -1,0 +1,29 @@
+#chat {
+	width: 100%;
+	height: 650px;
+	background: gray;
+}
+
+#isim {
+	width: 45%;
+	height: 40px;
+}
+
+#mesaj {
+	width: 45%;
+	height: 40px;
+}
+
+#submit{
+	width: 8%;
+	height: 40px;
+	margin-left: 3px;
+}
+
+#chat{
+	overflow: auto;
+}
+
+body {
+	margin:0 ;
+}

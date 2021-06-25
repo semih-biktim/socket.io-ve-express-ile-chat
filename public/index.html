@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Sohbet felan</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.1.2/socket.io.js" integrity="sha512-iZIBSs+gDyTH0ZhUem9eQ1t4DcEn2B9lHxfRMeGQhyNdSUz+rb+5A3ummX6DQTOIs1XK0gOteOg/LPtSo9VJ+w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+	<div id="chat">
+		
+	</div>
+	<input type="text" id="isim" placeholder="İsim"> <input type="text" id="mesaj" onkeypress="gonder(event)" placeholder="Mesaj"><button onclick="gonder()" id="submit">Gönder</button>
+	<script src="worker.js"></script>
+</body>
+</html>
